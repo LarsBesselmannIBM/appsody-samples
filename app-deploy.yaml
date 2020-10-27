@@ -2,11 +2,17 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   annotations:
+    commit.image.appsody.dev/date: Tue Oct 27 11:00:00 2020 +0100
+    commit.image.appsody.dev/message: version1
     commit.stack.appsody.dev/contextDir: /incubator/nodejs-express
     commit.stack.appsody.dev/date: Wed Jul 1 16:05:26 2020 +0100
     commit.stack.appsody.dev/message: 'nodejs-express: Install ca-certificates when
       building production image (#838)'
-    image.opencontainers.org/created: "2020-10-27T10:41:49+01:00"
+    image.opencontainers.org/created: "2020-10-27T11:06:59+01:00"
+    image.opencontainers.org/documentation: https://github.com/LarsBesselmannIBM/appsody-samples
+    image.opencontainers.org/revision: 93324b2f1d38604d3c4222ea2f6c0c109b164d67
+    image.opencontainers.org/source: https://github.com/LarsBesselmannIBM/appsody-samples/tree/master
+    image.opencontainers.org/url: https://github.com/LarsBesselmannIBM/appsody-samples
     stack.appsody.dev/authors: Gireesh Punathil <gireeshpunathil>
     stack.appsody.dev/configured: docker.io/appsody/nodejs-express:0.4
     stack.appsody.dev/created: "2020-07-01T15:09:37Z"
